@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuestionario con Sensores</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="question">
+    <h1 id="questionText"></h1>
+  </div>
+
+  <div class="options">
+    <button id="optionA" onclick="selectSensor('sensorA')"></button>
+    <button id="optionB" onclick="selectSensor('sensorB')"></button>
+    <button id="optionC" onclick="selectSensor('sensorC')"></button>
+    <button id="optionD" onclick="selectSensor('sensorD')"></button>
+  </div>
+
+  <div id="result">Esperando selección del sensor...</div>
+
+  <script src="/js/functions.js"></script>
+
+</body>
+</html>

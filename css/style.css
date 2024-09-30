@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .question {
+    font-size: 1.5em;
+  }
+  .options {
+    margin-top: 20px;
+  }
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+  }
